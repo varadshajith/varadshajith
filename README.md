@@ -33,12 +33,12 @@
   <img src="assets/readme/clinic-light.svg" width="100%" alt="02 clinic system, running, private: backups the server cannot read. Three-person team, live for a real practice; I own the security lane. Backups wrap a data key under X25519, HKDF-SHA256 and AES-256-GCM for two offline key-holders, with the header bound as associated data, so stripping a recipient breaks the tag. No decrypt function exists anywhere in app/; restore happens offline, by hand. 30k lines in app/, 2,073 tests, 36 migrations, CI against Postgres 17.">
 </picture>
 
+<a href="https://github.com/varadshajith/mockmate-gemma">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/readme/mockmate-dark.svg">
   <img src="assets/readme/mockmate-light.svg" width="100%" alt="03 mockmate-gemma, offline: bugs that produced confident, wrong output. Offline interview coach, local Gemma 4 E4B on a 6 GB card, network off; the model that grades is the model that listened. Pipeline: pw-record, Smart Turn v3, Gemma 4 E4B via llama-server, Piper TTS; bge-small memory. Replayed log: a grader at temperature above 0 scored 65, 75, 75 on identical input; at 0.0 there is 0-point variance. A regression test rebuilt its own copy of the prompt. An embedding server without --pooling mean compared [CLS] tokens. Audio past 30 s was silently dropped. Measured on an RTX 4050 Mobile: 2.3 s per 30 s clip, 5/5 rubric slot detection, 27 ms memory retrieval at 50 entries, ~4,201 of 6,141 MB VRAM.">
 </picture>
-
-<p align="center"><a href="https://github.com/varadshajith/mockmate-gemma"><code>mockmate-gemma</code></a></p>
+</a>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/readme/shipped-dark.svg">
@@ -46,12 +46,12 @@
 </picture>
 
 <p align="center">
-  <a href="https://github.com/varadshajith/PromptPilot">PromptPilot</a> ·
-  <a href="https://github.com/varadshajith/recall_telegram_bot">recall_telegram_bot</a> ·
-  <a href="https://github.com/varadshajith/Gram-yatra">Gram-yatra</a> ·
-  <a href="https://github.com/varadshajith/fastf1-visuals">fastf1-visuals</a> ·
-  <a href="https://github.com/varadshajith/GitSwipe">GitSwipe</a> ·
-  <a href="https://github.com/varadshajith/solnova">solnova</a>
+  <a href="https://github.com/varadshajith/PromptPilot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/badges/promptpilot-dark.svg"><img src="assets/readme/badges/promptpilot-light.svg" height="30" alt="PromptPilot"></picture></a>
+  <a href="https://github.com/varadshajith/recall_telegram_bot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/badges/recall-telegram-bot-dark.svg"><img src="assets/readme/badges/recall-telegram-bot-light.svg" height="30" alt="recall_telegram_bot"></picture></a>
+  <a href="https://github.com/varadshajith/Gram-yatra"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/badges/gram-yatra-dark.svg"><img src="assets/readme/badges/gram-yatra-light.svg" height="30" alt="Gram-yatra"></picture></a>
+  <a href="https://github.com/varadshajith/fastf1-visuals"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/badges/fastf1-visuals-dark.svg"><img src="assets/readme/badges/fastf1-visuals-light.svg" height="30" alt="fastf1-visuals"></picture></a>
+  <a href="https://github.com/varadshajith/GitSwipe"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/badges/gitswipe-dark.svg"><img src="assets/readme/badges/gitswipe-light.svg" height="30" alt="GitSwipe"></picture></a>
+  <a href="https://github.com/varadshajith/solnova"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/badges/solnova-dark.svg"><img src="assets/readme/badges/solnova-light.svg" height="30" alt="solnova"></picture></a>
 </p>
 
 <picture>
@@ -77,7 +77,7 @@
 </a>
 
 <p align="center">
-  <a href="mailto:varadshajith@gmail.com">Email</a> ·
-  <a href="https://www.linkedin.com/in/varad-shajith-410347369">LinkedIn</a> ·
-  <a href="https://github.com/varadshajith">GitHub</a>
+  <a href="mailto:varadshajith@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/badges/email-dark.svg"><img src="assets/readme/badges/email-light.svg" height="30" alt="Email"></picture></a>
+  <a href="https://www.linkedin.com/in/varad-shajith-410347369"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/badges/linkedin-dark.svg"><img src="assets/readme/badges/linkedin-light.svg" height="30" alt="LinkedIn"></picture></a>
+  <a href="https://github.com/varadshajith"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/badges/github-dark.svg"><img src="assets/readme/badges/github-light.svg" height="30" alt="GitHub"></picture></a>
 </p>
