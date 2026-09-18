@@ -10,7 +10,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/readme/now-dark.svg">
-  <img src="assets/readme/now-light.svg" width="100%" alt="Right now. Building foreman: runs K agents in parallel, keeps the one that passes (19 tests, 0.72 s, no network). Running the clinic system: live for a real practice, 3-person team, I own security (845 tests, 20 migrations, Postgres 17). Offline mockmate-gemma: local model on a 6 GB card, network off, never invents a score (2.3 s per 30 s clip, ~4,201 of 6,141 MB VRAM).">
+  <img src="assets/readme/now-light.svg" width="100%" alt="Right now. Building foreman: runs K agents in parallel, keeps the one that passes (19 tests, mock adapters, no network). Running the clinic system: live for a real practice, 3-person team, I own security (2,073 tests, 36 migrations, Postgres 17). Offline mockmate-gemma: local model on a 6 GB card, network off, never invents a score (2.3 s per 30 s clip, ~4,201 of 6,141 MB VRAM).">
 </picture>
 
 <picture>
@@ -25,12 +25,12 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/readme/foreman-dark.svg">
-  <img src="assets/readme/foreman-light.svg" width="100%" alt="01 foreman, building: verification that isn&#x27;t an opinion. Each task fans out to K CLI workers in isolated git worktrees; the first diff that applies, compiles and passes the task&#x27;s own verify_cmd wins. No model grades another model&#x27;s work. Beta posteriors per (task type, worker) learn the routing. 19 tests, 0.72 s, no network. Animated diagram: five workers race through applies, compiles and passes-verify_cmd gates; failures are crossed out, the first to pass merges, late passers are discarded.">
+  <img src="assets/readme/foreman-light.svg" width="100%" alt="01 foreman, building: verification that isn&#x27;t an opinion. Each task fans out to K CLI workers in isolated git worktrees; the first diff that applies, compiles and passes the task&#x27;s own verify_cmd wins. No model grades another model&#x27;s work. Beta posteriors per (task type, worker) learn the routing. 19 tests, mock adapters, no network. Animated diagram: five workers race through applies, compiles and passes-verify_cmd gates; failures are crossed out, the first to pass merges, late passers are discarded.">
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/readme/clinic-dark.svg">
-  <img src="assets/readme/clinic-light.svg" width="100%" alt="02 clinic system, running, private: backups the server cannot read. Three-person team, live for a real practice; I own the security lane. Backups wrap a data key under X25519, HKDF-SHA256 and AES-256-GCM for two offline key-holders, with the header bound as associated data, so stripping a recipient breaks the tag. No decrypt function exists anywhere in app/; restore happens offline, by hand. 45k lines of backend Python, 845 tests, 20 migrations, CI against Postgres 17.">
+  <img src="assets/readme/clinic-light.svg" width="100%" alt="02 clinic system, running, private: backups the server cannot read. Three-person team, live for a real practice; I own the security lane. Backups wrap a data key under X25519, HKDF-SHA256 and AES-256-GCM for two offline key-holders, with the header bound as associated data, so stripping a recipient breaks the tag. No decrypt function exists anywhere in app/; restore happens offline, by hand. 30k lines in app/, 2,073 tests, 36 migrations, CI against Postgres 17.">
 </picture>
 
 <picture>
@@ -42,7 +42,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/readme/shipped-dark.svg">
-  <img src="assets/readme/shipped-light.svg" width="100%" alt="Also shipped. PromptPilot: rewrites your prompt before it reaches the model and never auto-submits; if validation fails your original text is left alone. recall_telegram_bot: voice note in, structured brief out. Gram-yatra: a city shown the way a local would show it, 18 screens, team lead. fastf1-visuals: Formula 1 telemetry, lap, sector and tyre-strategy analysis. GitSwipe: repo discovery with a guided path to a first PR, about 18% built, shelved. solnova: Smart India Hackathon microgrid monitoring, I owned the software. Also eight ML notebooks, MNIST through ResNet50 at 98.9% accuracy.">
+  <img src="assets/readme/shipped-light.svg" width="100%" alt="Also shipped. PromptPilot: rewrites your prompt before it reaches the model and never auto-submits; if validation fails your original text is left alone. recall_telegram_bot: voice note in, structured brief out. Gram-yatra: a city shown the way a local would show it, 18 screens, team lead. fastf1-visuals: Formula 1 telemetry, lap, position and tyre-strategy analysis. GitSwipe: repo discovery with a guided path to a first PR, about 18% built, shelved. solnova: Smart India Hackathon microgrid monitoring, I owned the software. Also eight ML notebooks, MNIST through ResNet50 at 98.9% accuracy.">
 </picture>
 
 <p align="center">
