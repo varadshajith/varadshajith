@@ -1,0 +1,23 @@
+{
+  "statement": ["Building the tools", "I keep wishing", "existed."],
+  "focus": [
+    {
+      "label": "BUILDING",
+      "name": "foreman",
+      "lines": ["runs K agents in parallel,", "keeps the one that passes"]
+    },
+    {
+      "label": "RUNNING",
+      "name": "clinic system",
+      "lines": ["live for a real practice,", "3-person team, I own security"]
+    },
+    {
+      "label": "OFFLINE",
+      "name": "mockmate-gemma",
+      "lines": ["local model on a 6 GB card,", "network off, never invents a score"]
+    }
+  ],
+  "stack": "PYTHON · FASTAPI · POSTGRES · FLUTTER · LLAMA.CPP",
+  "location": "NASHIK, IN",
+  "cohort": "CS '28"
+}
